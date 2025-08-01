@@ -1,4 +1,3 @@
-import { memo } from "react";
 
 const SearchInput = ({ setText }) => {
   const handleChange = (e) => {
@@ -7,4 +6,4 @@ const SearchInput = ({ setText }) => {
   return <input onChange={handleChange} type="text" />;
 };
 
-export default memo(SearchInput);
+export default SearchInput;

@@ -1,4 +1,3 @@
-import { memo} from 'react'
 import './App.css'
 
 const ItemList = ({ list, text }) => {
@@ -20,4 +19,4 @@ const ItemList = ({ list, text }) => {
 	)
 }
 
-export default memo(ItemList)
+export default ItemList

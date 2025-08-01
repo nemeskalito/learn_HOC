@@ -1,4 +1,3 @@
-import { memo } from "react"
 
 const CounterButton = ({ count, setCount }) => {
 	const handleClick = () => {
@@ -11,4 +10,4 @@ const CounterButton = ({ count, setCount }) => {
 		</div>
 	)
 }
-export default memo(CounterButton)
+export default CounterButton
